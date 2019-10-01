@@ -6,7 +6,7 @@ guess = input_by_user
   if guess == "exit"
   puts "Goodbye!"
   elsif guess == number.to_s
-  puts "You gueseed the correct number!"
+  puts "You guessed the correct number!"
   else
   puts "Sorry! The computer guessed #{number}."
   end
