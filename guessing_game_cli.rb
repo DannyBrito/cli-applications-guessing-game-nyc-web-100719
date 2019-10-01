@@ -3,14 +3,14 @@ def run_guessing_game
 number = generate_num
 ask_for_guess
 guess = input_by_user
-if guess == "exit"
+  if guess == "exit"
   puts "Goodbye!"
-elsif guess == number.to_s
+  elsif guess == number.to_s
   puts "You gueseed the correct number!"
-else
+  else
   puts "Sorry! The computer guessed #{number}."
+  end
 end
-
 def generate_num
   rand(7)+1
 end
