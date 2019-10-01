@@ -11,6 +11,7 @@ guess = input_by_user
   puts "Sorry! The computer guessed #{number}."
   end
 end
+
 def generate_num
   rand(7)+1
 end
