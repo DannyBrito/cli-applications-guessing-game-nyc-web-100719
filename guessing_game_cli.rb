@@ -6,6 +6,9 @@ guess = input_by_user
 if guess == "exit"
   puts "Goodbye!"
 elsif guess == number.to_s
+  puts "You gueseed the correct number!"
+else
+  puts "Sorry! The computer guessed #{number}."
 end
 
 def generate_num
